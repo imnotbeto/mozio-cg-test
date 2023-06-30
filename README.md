@@ -33,16 +33,16 @@ _Below are the instructions of how to start and run the project._
    -e MOZIO_AUTH_TOKEN='6bd.........6f9' \
    --rm -it mozio-cg:v0
    ```
-   If you have difficulties while trying to run this command just run it as a one liner.
+   If you have difficulties while trying to run this command just execute it as a one liner.
     ```sh
     docker run --name mazio-cg-test -e MOZIO_URL='https://api-testing.mozio.com' -e MOZIO_AUTH_TOKEN='6bd.........6f9' --rm -it mozio-cg:v0
    ```
 
 
-6. While container is running you can also open a second terminal and run the tests by runnig the following command:
+6. While the container is running you can also open a second terminal and run the tests by executing the following command:
    ```sh
    docker exec -it mazio-cg-test python -m unittest
    ```
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#mozio-carlos-g-test">back to top</a>)</p>
