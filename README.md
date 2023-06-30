@@ -1,2 +1,43 @@
-# mozio-cg-test
-Test For: API Iintegration Dev At Mozio
+# Mozio Carlos G. Test
+This repo aims to solve the test for Mozio API Integration Dev.
+
+### About it
+When I was working with this project it just came to my mind that the simplest way to give functionality to the project was making it as a CLI. Thats why you will see a very simple and straight forward installation with docker.
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+The only prerequisite is to have installed docker in your computer. 
+
+_Below are the instructions of how to start and run the project._
+
+2. Clone the project
+   ```sh
+   git clone https://github.com/imnotbeto/mozio-cg-test.git
+   ```
+3. Enter to the root directory
+   ```sh
+   cd mozio-cg-test
+   ```
+4. Build docker image
+   ```sh
+   docker build . -t mozio-cg:v0
+   ```
+
+5. Run image container
+   ```sh
+   docker run \
+   --name mazio-cg-test \
+   -e MOZIO_URL='https://api-testing.mozio.com' \
+   -e MOZIO_AUTH_TOKEN='6bd1e15ab9e94bb190074b4209e6b6f9' \
+   --rm -it mozio-cg:v0
+   ```
+
+6. While container is running you can also open a second terminal and run the tests by runnig the following command:
+   ```sh
+   docker exec -it mazio-cg-test python -m unittest
+   ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
