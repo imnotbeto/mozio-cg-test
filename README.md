@@ -30,7 +30,7 @@ _Below are the instructions of how to start and run the project._
    docker run \
    --name mazio-cg-test \
    -e MOZIO_URL='https://api-testing.mozio.com' \
-   -e MOZIO_AUTH_TOKEN='6bd1e15ab9e94bb190074b4209e6b6f9' \
+   -e MOZIO_AUTH_TOKEN='6bd.........6f9' \
    --rm -it mozio-cg:v0
    ```
 
