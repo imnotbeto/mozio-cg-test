@@ -2,7 +2,7 @@
 This repo aims to solve the test for Mozio API Integration Dev.
 
 ### About it
-When I was working with this project it just came to my mind that the simplest way to give functionality to the project was making it as a CLI. Thats why you will see a very simple and straight forward installation with docker.
+When I was working on the project it just came to my mind that the simplest way to give functionality was to make it as a CLI. Thats why you will see a very simple and straight forward installation with docker.
 
 <!-- GETTING STARTED -->
 ## Getting Started
