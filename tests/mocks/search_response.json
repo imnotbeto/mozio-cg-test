@@ -1,0 +1,53 @@
+{
+    "search_id": "ABC-123",
+    "results": [
+        {
+            "result_id": "RES-1",
+            "vehicle_id": "766b5b200b230403203e1a377ab17cd5",
+            "total_price": {
+                "total_price": {
+                    "value": "211.73",
+                    "display": "$211.73",
+                    "compact": "$212"
+                },
+                "total_price_without_platform_fee": null,
+                "platform_fee": null,
+                "total_price_without_partner_fee": null,
+                "partner_fee": null,
+                "slashed_price": null
+            }
+        },
+        {
+            "result_id": "RES-2",
+            "vehicle_id": "cb2831c101866d46c190f3566a1cb820",
+            "total_price": {
+                "total_price": {
+                    "value": "405.57",
+                    "display": "$405.57",
+                    "compact": "$406"
+                },
+                "total_price_without_platform_fee": null,
+                "platform_fee": null,
+                "total_price_without_partner_fee": null,
+                "partner_fee": null,
+                "slashed_price": null
+            }
+        },
+        {
+            "result_id": "RES-3",
+            "vehicle_id": "2ac5895102e176ea1a7447afb052eac9",
+            "total_price": {
+                "total_price": {
+                    "value": "71.94",
+                    "display": "$71.94",
+                    "compact": "$72"
+                },
+                "total_price_without_platform_fee": null,
+                "platform_fee": null,
+                "total_price_without_partner_fee": null,
+                "partner_fee": null,
+                "slashed_price": null
+            }
+        }
+    ]
+}
