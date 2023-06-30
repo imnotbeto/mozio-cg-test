@@ -33,7 +33,7 @@ _Below are the instructions of how to start and run the project._
    -e MOZIO_AUTH_TOKEN='6bd.........6f9' \
    --rm -it mozio-cg:v0
    ```
-   If you have difficulties while trying to run this command just make it as a one liner.
+   If you have difficulties while trying to run this command just run it as a one liner.
     ```sh
     docker run --name mazio-cg-test -e MOZIO_URL='https://api-testing.mozio.com' -e MOZIO_AUTH_TOKEN='6bd.........6f9' --rm -it mozio-cg:v0
    ```
